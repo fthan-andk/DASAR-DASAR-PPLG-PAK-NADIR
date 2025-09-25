@@ -1,0 +1,7 @@
+# Latihan kondisi 1
+terlambat = False
+
+if terlambat:
+    print('Saya perlu memanggil wali kelas!')  # 1
+else:
+    print('Tidak perlu memanggil wali kelas...')  # 2
