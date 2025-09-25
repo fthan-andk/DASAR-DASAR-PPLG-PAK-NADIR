@@ -1,0 +1,14 @@
+# pajak.py
+
+penghasilan = 15000  #  penghasilan
+
+if penghasilan < 10000:
+    koefisien_pajak = 0.0   # 0%
+elif penghasilan < 30000:
+    koefisien_pajak = 0.2   # 20%
+elif penghasilan < 100000:
+    koefisien_pajak = 0.35  # 35%
+else:
+    koefisien_pajak = 0.45  # 45%
+
+print("Saya harus membayar:", penghasilan * koefisien_pajak, "pajak")
