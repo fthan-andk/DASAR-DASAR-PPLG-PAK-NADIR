@@ -1,0 +1,20 @@
+# Program menghitung total bayar dengan diskon
+
+# Input jumlah belanja
+belanja = int(input("Masukkan total belanja: "))
+
+# Cek kondisi diskon
+if belanja >= 1000000:
+    discount = 0.25 * belanja
+elif belanja >= 500000:
+    discount = 0.10 * belanja
+else:
+    discount = 0
+
+# Hitung total bayar
+total_bayar = belanja - discount
+
+# Output
+print("Total belanja  : Rp", belanja)
+print("Discount       : Rp", discount)
+print("Total yang dibayar: Rp", total_bayar)
